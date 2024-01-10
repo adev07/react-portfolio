@@ -2,82 +2,51 @@ import Link from "next/link";
 import React from "react";
 import { footer } from "@/data/global";
 import Image from "next/image";
+import "bootstrap-icons/font/bootstrap-icons.css"
 
 function Footer() {
   return (
-    <footer className="flex flex-col w-screen px-5 py-10 border-t border-fun-pink-darker z-5 bg-bg">
-      <div className="w-full max-w-4xl m-auto grid grid-cols-2 sm:grid-cols-3 justify-between items-start">
-        {footer.columns.map((item, index) => {
-          return (
-            <div key={index} className="text-left mb-5 sm:mb-0">
-              <h4 className="uppercase text-fun-gray text-sm font-bold">
-                {item.title}
-              </h4>
-              <div>
-                {item.links.map((item, index) => {
-                  return (
-                    <div key={index} className="my-4">
-                      {item.leavesWebsite ? (
-                        <a
-                          href={item.link}
-                          target="_blank"
-                          className="items-center flex"
-                        >
-                          {item.icon && (
-                            <span className="pr-2 -mb-1">
-                              <Image src={item.icon} width={20} height={20} />
-                            </span>
-                          )}
-                          {item.name}
-                        </a>
-                      ) : (
-                        <Link href={item.link}>{item.name}</Link>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          );
-        })}
-        <div className="text-center col-span-2 sm:col-auto sm:text-left pt-8 sm:mt-0 sm:pt-0 text-fun-gray border-t border-fun-pink-dark sm:border-0">
-          <h4 className="uppercase text-fun-gray text-sm font-bold">
-            Support My Work
-          </h4>
-          <div className="space-y-2 mt-4 w-full flex items-center sm:items-start flex-col">
-            {footer.support.buymeacoffee !== "" && (
-              <div>
-                <a
-                  href={`https://buymeacoffee.com/${footer.support.buymeacoffee}`}
-                  target="_blank"
-                >
-                  <img
-                    src="/static/misc/buy-me-a-coffee.svg"
-                    className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
-                  />
-                </a>
-              </div>
-            )}
-            {footer.support.paypal !== "" && (
-              <div>
-                <a
-                  href={`https://paypal.me/${footer.support.paypal}`}
-                  target="_blank"
-                >
-                  <img
-                    src="/static/misc/paypal.svg"
-                    className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
-                  />
-                </a>
-              </div>
-            )}
-            <p className="text-fun-gray text-xs pt-1">
-              {footer.support.message}
+    <footer className="flex flex-col w-screen px-5 py-10 z-5 bg-bg">
+      <div className="border-t border-fun-pink-dark">
+        <div className="py-[60px] sm:flex justify-between sm:mx-[68px] items-center ">
+          <div className="text-[#fff]">
+            <h3 className="text-[32px] custom-spacing-footer2">
+              Aditya Anand
+            </h3>
+            <p className="custom-fonts text-[13px] opacity-[50%] custom-spacing-footer">
+              "Curiosity and consistency will always beat talent."
             </p>
+          </div>
+          <div className="mt-2 sm:mt-[0px]">
+            <div className="text-[#fff] pb-2 opacity-[50%]">
+              Let's Connect
+            </div>
+            <div className="flex gap-4 cursor-pointer">
+              <a href="https://www.linkedin.com/in/aditya-anand-748139226/" target="_blank" rel="noopener noreferrer">
+                <div className="w-[30px] h-[30px] flex items-center justify-center bg-[#fff] bg-opacity-[10%] rounded-full">
+                  <i className="text-[#fff] bi bi-linkedin"></i>
+                </div>
+              </a>
+              <a href="https://github.com/adev07" target="_blank" rel="noopener noreferrer">
+                <div className="w-[30px] h-[30px] flex items-center justify-center bg-[#fff] bg-opacity-[10%] rounded-full">
+                  <i className="text-[#fff] bi bi-github"></i>
+                </div>
+              </a>
+              <a href="mailto:adityaanand1245@gmail.com">
+                <div className="w-[30px] h-[30px] flex items-center justify-center bg-[#fff] bg-opacity-[10%] rounded-full">
+                  <i className="text-[#fff] bi bi-google"></i>
+                </div>
+              </a>
+              <a href="https://twitter.com/AdityaA68413019" target="_blank" rel="noopener noreferrer">
+                <div className="w-[30px] h-[30px] flex items-center justify-center bg-[#fff] bg-opacity-[10%] rounded-full">
+                  <i className="text-[#fff] bi bi-twitter"></i>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      <div className="max-w-4xl w-full m-auto mt-8 pt-8 sm:mt-4 sm:pt-4 text-center text-fun-gray border-t border-fun-pink-dark">
+      <div className="w-full m-auto mt-8 pt-8 sm:mt-4 sm:pt-4 text-center text-fun-gray border-t border-fun-pink-dark">
         <p className="flex flex-col items-center justify-center ">
           <div className="inline-flex items-center uppercase text-xs font-bold tracking-widest">
             Made with{" "}
@@ -112,16 +81,16 @@ function Footer() {
           <div className="mt-2 text-xs ">
             Made by{" "}
             <a
-              href="mailto:contact@braydentw.io"
+              href="mailto:adityaanand1245@gmail.com"
               className="text-fun-gray-light font-medium"
             >
-              Brayden Wright
+              Aditya Anand
             </a>
             . All rights reserved.
           </div>
         </p>
       </div>
-      <div className="mt-8 text-center sm:text-right sm:-mt-12">
+      {/* <div className="mt-8 text-center sm:text-right sm:-mt-12">
         <a
           className="w-auto inline-flex items-center sm:w-auto font-bold flex-shrink text-xs border border-fun-pink px-4 py-2 rounded-xl text-fun-pink cursor-pointer opacity-50"
           href="https://github.com/braydentw/braydentw.io"
@@ -136,7 +105,7 @@ function Footer() {
           />
           <span className="ml-2">View Source Code </span>
         </a>
-      </div>
+      </div> */}
     </footer>
   );
 }

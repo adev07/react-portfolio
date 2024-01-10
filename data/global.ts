@@ -36,9 +36,13 @@ export const routes: Route[] = [
     path: "/projects",
   },
   {
-    title: "Designs",
-    path: "/designs",
+    title: "Stats",
+    path: "/stats",
   },
+  // {
+  //   title: "Blogs",
+  //   path: "/designs",
+  // },
 ];
 
 
@@ -52,21 +56,21 @@ export const footer: Footer = {
           link: "/",
           leavesWebsite: false,
         },
-        // {
-        //   name: "Blog",
-        //   link: "/blog",
-        //   leavesWebsite: false,
-        // },
+        {
+          name: "Stats",
+          link: "/Stats",
+          leavesWebsite: false,
+        },
         {
           name: "Projects",
           link: "/projects",
           leavesWebsite: false,
         },
-        {
-          name: "Designs",
-          link: "/designs",
-          leavesWebsite: false,
-        },
+        // {
+        //   name: "Designs",
+        //   link: "/designs",
+        //   leavesWebsite: false,
+        // },
       ],
     },
     {
@@ -84,18 +88,18 @@ export const footer: Footer = {
           icon: "/static/icons/linkedin-f.svg",
           leavesWebsite: true,
         },
-        {
-          name: "Dribbble",
-          link: "https://dribbble.com/braydentw",
-          icon: "/static/icons/dribbble-f.svg",
-          leavesWebsite: true,
-        },
-        {
-          name: "IndieHackers",
-          link: "https://indiehackers.com/braydentw",
-          icon: "/static/icons/indiehackers-f.svg",
-          leavesWebsite: true,
-        },
+        // {
+        //   name: "Dribbble",
+        //   link: "https://dribbble.com/braydentw",
+        //   icon: "/static/icons/dribbble-f.svg",
+        //   leavesWebsite: true,
+        // },
+        // {
+        //   name: "IndieHackers",
+        //   link: "https://indiehackers.com/braydentw",
+        //   icon: "/static/icons/indiehackers-f.svg",
+        //   leavesWebsite: true,
+        // },
         {
           name: "Email",
           link: "mailto:contact@braydentw.io",

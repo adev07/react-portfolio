@@ -8,7 +8,7 @@ function Hero() {
         className="relative heroElem w-full pt-20 pb-40 m-auto flex justify-center text-center flex-col items-center z-1"
         style={{ maxWidth: "1200px" }}
       >
-        <p className="text-xl mb-5">Hey, I'm Brayden.</p>
+        <p className="text-xl mb-5">Hey, I'm Aditya.</p>
         <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold heroShinyBg">
           I enjoy <span className="heroShiny1 text-fun-pink">building</span> and{" "}
           <span className="heroShiny2 text-fun-pink">designing</span> for the
@@ -24,27 +24,20 @@ function Hero() {
             src="/static/doodles/hero/nextjs.svg"
           />
           <img
-            className="sqD bottom-[-300px] -right-1/4 sm:right-[-20%] lg:bottom-[-310px] lg:right-[-120px] w-[400px]"
-            style={{ animationDelay: "0.3s" }}
-            src="/static/doodles/hero/brayden.svg"
+            className="sqD hidden md:block bottom-[-300px] sm:right-[-20%] lg:bottom-[-250px] lg:right-[150px]"
+            src="/static/doodles/skills/coding.svg"
           />
           <img
-            className="sqD hidden sm:block bottom-[-340px] left-[-180px]"
-            style={{ animationDelay: "0.4s" }}
-            src="/static/doodles/hero/coder.svg"
-          />
-          <img
-            className="sqD hidden sm:block left-[100px] lg:left-[160px] bottom-[-150px]"
+            className="sqD hidden sm:block left-[100px] lg:left-[160px] bottom-[-210px]"
             style={{ animationDelay: "0.5s" }}
             src="/static/doodles/hero/js.svg"
           />
           <img
-            className="sqD bottom-[-320px] right-[65%] sm:right-[45%]"
-            style={{ animationDelay: "0.6s" }}
-            src="/static/doodles/hero/dino.svg"
+            className="sqD lg:bottom-[-300px] bottom-[-250px] lg:right-[42%] sm:right-[45%] z-[-10]"
+            src="/static/doodles/skills/laptop.svg"
           />
           <img
-            className="sqD right-[-60px] sm:right-0 bottom-[-180px] lg:[5%]"
+            className="sqD right-[-25px] sm:right-0 bottom-[-160px] lg:[5%] top-[14rem] lg:top-[8rem]"
             style={{ animationDelay: "0.7s" }}
             src="/static/doodles/hero/paintbrush.svg"
           />
@@ -53,7 +46,7 @@ function Hero() {
             src="/static/doodles/hero/pop1.svg"
           />
           <img
-            className="sqD left-[-35px] bottom-[-85px] sm:bottom-[-100px] sm:left-5 opacity-40"
+            className="sqD lg:left-[-35px] bottom-[-85px] sm:bottom-[-100px] sm:left-5 opacity-40"
             style={{ animationDelay: "0.9s" }}
             src="/static/doodles/hero/code.svg"
           />

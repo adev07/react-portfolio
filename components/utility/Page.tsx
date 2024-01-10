@@ -7,8 +7,8 @@ import React, { ReactChildren } from "react";
 function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
   const pageTitle = `${
     currentPage === "Home"
-      ? "Brayden Wright - Web Developer, Designer, Creator."
-      : `${currentPage} - BraydenTW.io`
+      ? "Aditya Anand - Web Developer, Designer, Creator."
+      : `${currentPage} - adev07`
   }`;
   console.log(currentPage);
   return (
@@ -41,7 +41,7 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
         <meta name="description" content={desc} />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://braydentw.io/" />
+        {/* <meta property="og:url" content="https://braydentw.io/" /> */}
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={desc} />
         <meta
@@ -86,7 +86,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <noscript
         dangerouslySetInnerHTML={{
           __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KC3CN7V"
-height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
+           height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
         }}
       ></noscript>
 
