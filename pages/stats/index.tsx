@@ -49,7 +49,7 @@ const index = (props: Props) => {
           </h1>
         </div>
 
-        <div className="grid grid-cols-4 gap-4 items-center justify-center">
+        <div className="grid sm:grid-cols-4 sm:gap-4 gap-2 items-center justify-center">
           <div className="col-span-2">
             <a
               href="https://github.com/anuraghazra/github-readme-stats"
@@ -95,10 +95,6 @@ const index = (props: Props) => {
         <div className='mt-16'>
           <h1 className="text-3xl sm:text-3xl inline-block w-auto mb-8 relative font-bold">
             Dev Quotes
-            {/* <img
-              className="sqD w-10 -top-6 -right-8 absolute"
-              src="/static/doodles/skills/fillStar.svg"
-            /> */}
           </h1>
         </div>
         <div className="flex items-center justify-center">
