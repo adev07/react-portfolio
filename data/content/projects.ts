@@ -8,7 +8,7 @@ const projects: Project[] = [
     desc: "A web application that facilitates seamless food ordering and delivery experiences.",
     img: "/static/projects/currycook.png",
     link: "https://currycook.com/",
-    github: "https://github.com/braydentw/learn.theyei",
+    // github: "https://github.com/braydentw/learn.theyei",
     tags: ["React", "TailwindCSS", "CSS", "TypeScript"],
   },
   {
@@ -24,8 +24,8 @@ const projects: Project[] = [
     title: "IT Repeats",
     desc: "A web application that enables college students to upload and access test questions from earlier years.",
     img: "/static/projects/itrepeats.png",
-    link: "https://react-emoji-search.braydentw.vercel.app/",
-    github: "https://github.com/braydentw/react-emoji-search",
+    // link: "https://react-emoji-search.braydentw.vercel.app/",
+    // github: "https://github.com/braydentw/react-emoji-search",
     tags: ["React", "TailwindCSS", "Node.js", "Bootstrap"],
   },
   // {
