@@ -98,9 +98,9 @@ const index = (props: Props) => {
           </h1>
         </div>
         <div className="flex items-center justify-center">
-          <div className="">
+          <div>
             <img
-              style={{ width: "100%", height: "auto" }}
+              style={{ width: "100%", height: "auto", objectFit: 'contain' }}
               src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"
               alt="Developer Quotes"
             />
