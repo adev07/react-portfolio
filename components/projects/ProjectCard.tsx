@@ -5,11 +5,11 @@ import Link from "next/link";
 
 
 function ProjectCard({ project }) {
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
-  const handleImageLoad = () => {
-    setLoading(false);
-  };
+  // const handleImageLoad = () => {
+  //   setLoading(false);
+  // };
   return (
     <div
       className="max-w-sm mx-auto flex flex-col projects-center md:projects-start md:justify-center"
@@ -23,13 +23,13 @@ function ProjectCard({ project }) {
         <img
           className="w-full rounded-md"
           src={project.img}
-          onLoad={handleImageLoad}
+          // onLoad={handleImageLoad}
         />
-        {loading && (
+        {/* {loading && (
           <div className="absolute inset-0 flex items-center justify-center">
             Loading...
           </div>
-        )}
+        )} */}
       </a>
       <div className="w-full mt-5">
         <div className="flex projects-center justify-between">

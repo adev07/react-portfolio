@@ -2,17 +2,46 @@ import { kebabCase, kebabArray } from "@/utils/utils";
 import { Project } from "types";
 
 const projects: Project[] = [
+  
   {
     id: 0,
+    title: "Shoes E-Commerce",
+    desc: "A shoes e-cemmerce web application made with React.js, Next.js, Strapi and Stripe for payment integration.",
+    img: "/static/projects/shoestore.jpeg",
+    link: "https://shoes-store-frontend-amber.vercel.app/",
+    github: "https://github.com/adev07/shoes-store-frontend",
+    tags: ["React","Redux", "NextJS", "Tailwind CSS", "Strapi", "Stripe"],
+  },
+  {
+    id: 1,
     title: "Curry Cook",
     desc: "A web application that facilitates seamless food ordering and delivery experiences.",
     img: "/static/projects/currycook.png",
     link: "https://currycook.com/",
-    // github: "https://github.com/braydentw/learn.theyei",
-    tags: ["React", "TailwindCSS", "CSS", "TypeScript"],
+    tags: ["React", "Tailwind CSS", "CSS", "TypeScript", "Axios", "Redux"],
   },
+  
   {
-    id: 1,
+    id: 2,
+    title: "Currency Converter",
+    desc: "A currency connverter app made with React and Contenxt Api",
+    img: "/static/projects/currency.jpeg",
+    link: "https://currency-converter-adev07.vercel.app/",
+    github: "https://github.com/adev07/currency-converter",
+    tags: ["React","Vite", "Context Api", "Tailwind CSS" ],
+  },
+
+  {
+    id: 3,
+    title: "To-Do App",
+    desc: "A TO-DO app to keep tracking on your daily activites used firebase for authentication.",
+    img: "/static/projects/Todo.jpeg",
+    link: "https://bitcointemp.com",
+    tags: ["React", "Firebase", "Tailwind CSS", "Redux"],
+  },
+  
+  {
+    id: 4,
     title: "Digi Tracker",
     desc: "A project management software which enhance project tracking, task management, and collaboration.",
     img: "/static/projects/digitrack.png",
@@ -20,7 +49,7 @@ const projects: Project[] = [
     tags: ["React", "CSS", "TailwindCSS", "TypeScript"],
   },
   {
-    id: 2,
+    id: 5,
     title: "IT Repeats",
     desc: "A web application that enables college students to upload and access test questions from earlier years.",
     img: "/static/projects/itrepeats.png",
@@ -28,14 +57,7 @@ const projects: Project[] = [
     // github: "https://github.com/braydentw/react-emoji-search",
     tags: ["React", "TailwindCSS", "Node.js", "Bootstrap"],
   },
-  // {
-  //   id: 3,
-  //   title: "BitcoinTemp",
-  //   desc: "A fun way to check the price of bitcoin! Cloudy days, sunny days, and Bitcoin Storms!",
-  //   img: "/static/projects/bitcointemp.png",
-  //   link: "https://bitcointemp.com",
-  //   tags: ["React", "NextJS", "SCSS", "API"],
-  // },
+
   // {
   //   id: 4,
   //   title: "Create HTML Boilerplate",
