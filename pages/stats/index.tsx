@@ -39,60 +39,65 @@ const index = (props: Props) => {
             );
           })}
         </div>
-        <div className='mt-16'>
+        <div className='mt-[90px]'>
           <h1 className="text-3xl sm:text-3xl font-bold inline-block w-auto mb-8 relative">
             Here are my GitHub metrics for your analysis.
-            {/* <img
+            <img
               className="sqD w-12 -top-6 -right-8 absolute"
               src="/static/doodles/skills/fillStar.svg"
-            /> */}
+            />
           </h1>
         </div>
 
-        <div className="grid sm:grid-cols-4 sm:gap-4 gap-2 items-center justify-center">
-          <div className="col-span-2">
-            <a
-              href="https://github.com/anuraghazra/github-readme-stats"
+        <div className="grid sm:grid-cols-3 sm:gap-0 gap-2 items-center justify-center">
+          <div className="col-span-1">
+            <div className="flex items-center justify-center"
               title="GitHub Stats"
             >
               <img
-                className="w-100"
-                style={{ width: "100%" }}
+                className="w-90"
                 src="https://github-readme-stats.vercel.app/api?username=adev07&show_icons=true&theme=react&border_color=61dafb&hide_border=true"
                 alt="GitHub Stats"
               />
-            </a>
+            </div>
           </div>
-          <div className="col-span-2">
-            <a
-              href="https://github.com/denvercoder1/github-readme-streak-stats"
-              title="GitHub Streak"
-            >
-              <img
-                className="w-100"
-                style={{ width: "100%" }}
-                src="https://github-readme-streak-stats.herokuapp.com/?user=adev07&theme=react&border=61dafb&hide_border=true"
-                alt="GitHub Streak"
-              />
-            </a>
-          </div>
-          <div className='col-span-1'></div>
-          <div className='col-span-2'>
-            <a
-              href="https://github.com/anuraghazra/github-readme-stats"
+          <div className='col-span-1'>
+            <div className='flex items-center justify-center'
               title="Top Languages"
             >
               <img
-                className="w-100"
-                style={{ width: "100%" }}
+                className="w-full sm:h-40 h-full"
                 src="https://github-readme-stats.vercel.app/api/top-langs/?username=adev07&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true"
                 alt="Top Languages"
               />
-            </a>
+            </div>
           </div>
+          <div className="col-span-1">
+            <div className='flex items-center justify-center'
+              title="GitHub Streak"
+            >
+              <img
+                className="w-90"
+                src="https://github-readme-streak-stats.herokuapp.com/?user=adev07&theme=react&border=61dafb&hide_border=true"
+                alt="GitHub Streak"
+              />
+            </div>
+          </div>
+          {/* <div className='col-span-1'></div> */}
+          {/* <div className='col-span-2'>
+            <div className='flex items-center justify-center'
+              title="Top Languages"
+            >
+              <img
+                className="w-90"
+                src="https://github-readme-stats.vercel.app/api/top-langs/?username=adev07&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true"
+                alt="Top Languages"
+              />
+            </div>
+          </div> */}
         </div>
 
-        <div className='mt-16'>
+        <div className='mt-[90px]'>
           <h1 className="text-3xl sm:text-3xl inline-block w-auto mb-8 relative font-bold">
             Dev Quotes
           </h1>

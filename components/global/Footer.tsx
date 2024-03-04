@@ -70,7 +70,7 @@ function Footer() {
               </span>
               <span>
                 <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/768px-Tailwind_CSS_Logo.svg.png?20230715030042"
                   width="26"
                   title="TailwindCSS"
                 />

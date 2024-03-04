@@ -29,7 +29,8 @@ export const skills: Skill[] = [
   },
   {
     title: "TailwindCSS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/768px-Tailwind_CSS_Logo.svg.png?20230715030042",
+    style: { marginTop: "18px"},
   },
   {
     title: "React",
