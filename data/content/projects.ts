@@ -2,7 +2,15 @@ import { kebabCase, kebabArray } from "@/utils/utils";
 import { Project } from "types";
 
 const projects: Project[] = [
-  
+  {
+    id: 0,
+    title: "Raw Diaries",
+    desc: "The Trips Booking App uses MongoDB for backend storage and Next.js with React for frontend development.",
+    img: "/static/projects/rd.png",
+    link: "https://rawdiaries.vercel.app/",
+    github: "https://github.com/prynsh7/rawdiaries",
+    tags: ["React","Redux", "NextJS", "Tailwind CSS", "MongoDB", "Firebasse"],
+  },
   {
     id: 0,
     title: "Shoes E-Commerce",
