@@ -12,7 +12,7 @@ const projects: Project[] = [
     tags: ["React","Redux", "NextJS", "Tailwind CSS", "MongoDB", "Firebasse"],
   },
   {
-    id: 0,
+    id: 1,
     title: "Shoes E-Commerce",
     desc: "A shoes e-cemmerce web application made with React.js, Next.js, Strapi and Stripe for payment integration.",
     img: "/static/projects/shoestore.jpeg",
@@ -21,7 +21,7 @@ const projects: Project[] = [
     tags: ["React","Redux", "NextJS", "Tailwind CSS", "Strapi", "Stripe"],
   },
   {
-    id: 1,
+    id: 2,
     title: "Curry Cook",
     desc: "A web application that facilitates seamless food ordering and delivery experiences.",
     img: "/static/projects/currycook.png",
@@ -30,7 +30,7 @@ const projects: Project[] = [
   },
   
   {
-    id: 2,
+    id: 3,
     title: "Currency Converter",
     desc: "A currency connverter app made with React and Contenxt Api",
     img: "/static/projects/currency.jpeg",
@@ -40,16 +40,16 @@ const projects: Project[] = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "To-Do App",
     desc: "A TO-DO app to keep tracking on your daily activites used firebase for authentication.",
     img: "/static/projects/Todo.jpeg",
-    link: "https://bitcointemp.com",
+    link: "https://firebase-todo-app-chi.vercel.app",
     tags: ["React", "Firebase", "Tailwind CSS", "Redux"],
   },
   
   {
-    id: 4,
+    id: 5,
     title: "Digi Tracker",
     desc: "A project management software which enhance project tracking, task management, and collaboration.",
     img: "/static/projects/digitrack.png",
@@ -57,7 +57,7 @@ const projects: Project[] = [
     tags: ["React", "CSS", "TailwindCSS", "TypeScript"],
   },
   {
-    id: 5,
+    id: 6,
     title: "IT Repeats",
     desc: "A web application that enables college students to upload and access test questions from earlier years.",
     img: "/static/projects/itrepeats.png",
